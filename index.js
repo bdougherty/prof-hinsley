@@ -3,6 +3,10 @@
 const Slapp = require('slapp');
 const BeepBoopContext = require('slapp-context-beepboop');
 
+if (!process.env.PORT) {
+	throw Error('PORT missing but required');
+}
+
 const slapp = Slapp({
 	context: BeepBoopContext()
 });
@@ -10,3 +14,5 @@ const slapp = Slapp({
 slapp.message('.*', ['direct_message', 'direct_mention'], (msg, text, greeting) => {
 	msg.say('Fine');
 });
+
+slapp.attachToExpress(require('express')()).listen(process.env.PORT);

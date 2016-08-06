@@ -10,6 +10,7 @@
   "author": "Brad Dougherty <me@brad.is>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.14.0",
     "slapp": "^1.0.2",
     "slapp-context-beepboop": "^1.0.0"
   }

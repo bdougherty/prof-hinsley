@@ -1,0 +1,15 @@
+{
+  "name": "prof-hinsley",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brad Dougherty <me@brad.is>",
+  "license": "MIT",
+  "dependencies": {
+    "slapp": "^1.0.2",
+    "slapp-context-beepboop": "^1.0.0"
+  }
+}

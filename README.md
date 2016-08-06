@@ -1,2 +1,2 @@
-# prof-hinsley
+# Prof. Hinsley
 An innernette chat bot.
